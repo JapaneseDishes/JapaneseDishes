@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="./Main-Pre.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img class="logo" src="images/logo.png" alt="logo">
+        <ul class="nav-links">
+            <li class="unactive">
+                <a href="index.html">Начална Страница</li>
+            <li class="unactive">
+                <a href="Menu.html">Видове японски ястия</a>
+                <ul class="dropdown">
+                    <li class="unactive"><a href="Pre.html">Предястия</a></li>
+                    <li class="active"><a href="Main.html">Основни</a></li>
+                </ul>
+            </li>
+            <li class="unactive">
+                <a href="AboutMe.html">За мен</li>
+            <li class="ctn">
+                <a href="contact.html">Контакт</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Ястия подходящи за закуска, обяд и вечеря в Япония</h2>
+            <div class="line"></div>
+            <h1>Основни</h1>
+        </div>
+    </header>
+
+    <section class="explore4">
+        <div class="exlore-content">
+            <h1>Къри</h1>
+            <div class="line"></div>
+            <p>За обедно меню оризът често се комбинира с къри, най-често телешко или пиле със сос и зеленчуци. Леко сладникав на вкус, гъст, богат сос (много вкусен) в комбинация с картофи, моркови и ябълка, откъдето идва и сладостта. Няма нищо общо с индийското
+                къри, което е пикантно, приготвя с много подправки и доматен сос.</p>
+        </div>
+
+        <div class="col image-col">
+            <div class="image-gallary">
+                <img src="./images/img25.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="explore5">
+
+        <div class="col image-col">
+            <div class="image-gallary">
+                <img src="./images/img26.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="exlore1-content">
+            <h1>Рамен</h1>
+            <div class="line"></div>
+            <p>Супа рамен е друга много популярна опция за обяд, закуска или вечеря. Бульонът е различен за всеки рамен ресторант, но основно се разделя на свински, пилешки или соев. Може да си изберете как да бъдат сварени нудълите, както и с каква гарнитура
+                да се сервира супата. Повечето префектури имат свой специалитет. Някои ресторанти разполагат с машини за билети, чрез които си избирате вида на бульона, количеството месо , крехкостта на нудълите, колко пикантна да е супата и прочее. Само
+                поставяте парите в машината и натискате няколко копчета, получавате си билета и се настанява в ресторанта, където готвачите взимат билета и се залавят с поръчката ви.</p>
+        </div>
+    </section>
+
+    <section class="explore6">
+        <div class="exlore-content">
+            <h1>Катсy Дон</h1>
+            <div class="line"></div>
+            <p>Катсу Дон – свински или пилешки шницел върху ориз, полят със сладникав соев сос или къри сос. Това е много популярно ястие, което може да се намери в почти всеки ресторант. Месото е сочно, а панировката хрупкава!</p>
+        </div>
+
+        <div class="col image-col">
+            <div class="image-gallary">
+                <img src="./images/img27.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="explore7">
+
+        <div class="col image-col">
+            <div class="image-gallary">
+                <img src="./images/img28.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="exlore1-content">
+            <h1>Суши</h1>
+            <div class="line"></div>
+            <p>Без съмнение сушито е една от най-известните храни, които идват от Япония. Създадено в древни времена, ястието се ражда от процеса на консервиране на риба във ферментирал ориз. Днес видовете суши изобилстват и то се прави с различни продукти,
+                по различни начини и в различни форми.
+
+            </p>
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <p>Най-информативният сайт отностно японската кухня</p>
+        <p>© 2022-2023 Всички права запазени от Кристиян Горинов</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+</body>
+
+</html>

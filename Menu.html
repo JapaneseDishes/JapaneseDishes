@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="./Menu.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img class="logo" src="images/logo.png" alt="logo">
+        <ul class="nav-links">
+            <li class="unactive">
+                <a href="index.html">Начална Страница</li>
+            <li class="active">
+                <a href="#">Видове японски ястия</a>
+                <ul class="dropdown">
+                    <li><a href="Pre.html">Предястия</a></li>
+                    <li><a href="Main.html">Основни</a></li>
+
+                </ul>
+            </li>
+            <li class="unactive">
+                <a href="AboutMe.html">За мен</li>
+            <li class="ctn">
+                <a href="contact.html">Контакт</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Разнообразието на японската кухня</h2>
+            <div class="line"></div>
+            <h1>Видове японски ястия</h1>
+        </div>
+    </header>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Суши - лицето на японската храна</h1>
+                <div class="line"></div>
+                <p>Сушито е световно разпространена японска храна, която много хора обичат.</p>
+                <a href="Main.html" class="ctn">Научи повече</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallary">
+                    <img src="./images/img5.jpg" alt="">
+                    <img src="./images/img6.jpg" alt="">
+                    <img src="./images/img7.jpg" alt="">
+                    <img src="./images/img8.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="section-line"></div>
+    <section class="tours">
+        <div class="row">
+
+            <div class="col image-col">
+                <div class="image-gallary">
+                    <img src="./images/img9.jpg" alt="">
+                    <img src="./images/img10.jpg" alt="">
+                    <img src="./images/img11.jpg" alt="">
+                    <img src="./images/img12.jpg" alt="">
+                    <img src="./images/img13.jpg" alt="">
+                    <img src="./images/img14.jpg" alt="">
+                </div>
+            </div>
+            <div class="col content-col">
+                <h1>Рамен- Аниме храната</h1>
+                <div class="line"></div>
+                <p>Популярно ястие, което може да се намери в почти всеки ресторант в Япония</p>
+                <a href="Main.html" class="ctn">Научи повече</a>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="section-line"></div>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Такояки - храната на фестивалите</h1>
+                <div class="line"></div>
+                <p>Eдно от Най-популярните предястия в япония на денят на фестивалът с фоерверки.</p>
+                <a href="Pre.html" class="ctn">Научи повече</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallary">
+                    <img src="./images/img15.jpg" alt="">
+                    <img src="./images/img16.jpg" alt="">
+                    <img src="./images/img17.jpg" alt="">
+                    <img src="./images/img18.jpg" alt="">
+                    <img src="./images/img19.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Най-информативният сайт отностно японската кухня</p>
+        <p>© 2022-2023 Всички права запазени от Кристиян Горинов</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>

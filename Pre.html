@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="./Main-Pre.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img class="logo" src="images/logo.png" alt="logo">
+        <ul class="nav-links">
+            <li class="unactive">
+                <a href="index.html">Начална Страница</li>
+            <li class="unactive">
+                <a href="Menu.html">Видове японски ястия</a>
+                <ul class="dropdown">
+                    <li class="active"><a href="Pre.html">Предястия</a></li>
+                    <li class="unactive"><a href="Main.html">Основни</a></li>
+                </ul>
+            </li>
+            <li class="unactive">
+                <a href="AboutMe.html">За мен</li>
+            <li class="ctn">
+                <a href="contact.html">Контакт</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Видовете японски предястия</h2>
+            <div class="line"></div>
+            <h1>Предястия</h1>
+        </div>
+    </header>
+
+
+    <section class="explore">
+        <div class="exlore-content">
+            <h1>Натто</h1>
+            <div class="line"></div>
+            <p>Натто е нещо, с което японците израстват (както е бозата за нас), ако не си запознат от дете с него, трудно можеш да го рекламираш на някого. Изглежда ужасно, мирише на чорапи, но… е супер храна, що се отнася до това колко е полезна. Смесва
+                се с горчица и соев сос, което много подобрява вкуса. Консистенцията обаче е нещо, с което всеки трябва да се пребори, ако не е израснал в Япония!!</p>
+        </div>
+
+        <div class="col image-col">
+            <div class="image-gallary">
+                <img src="./images/img21.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="explore1">
+
+        <div class="col image-col">
+            <div class="image-gallary">
+                <img src="./images/img22.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="exlore1-content">
+            <h1>Такояки</h1>
+            <div class="line"></div>
+            <p>Такояки е запазена марка на Осака. Представлява топка, приготвена от смес, подобна на тази за палачинки, само че в средата има парче сварен октопод и маринован джинджифил. Пържи се на специална гореща плоча, върху която се оформят като топки.
+                Поръсват се бонито/катсубуши (много фино настърган сушен паламуд). Всичко това е полято с японска майонеза, сладък подобен на барбекю сос и нори (сушени водорасли) :).</p>
+        </div>
+    </section>
+
+    <section class="explore2">
+        <div class="exlore-content">
+            <h1>Гиоза</h1>
+            <div class="line"></div>
+            <p>Гиоза – китайски дъмплинг, пълнен най-често със смес от месо, зеле, гъби и подправки. Приготвя се върху гореща плоча или плосък тиган. Много популярно предястие – хрупкаво и много сочно, сервира се с микс от соев сос и оцет.</p>
+        </div>
+
+        <div class="col image-col">
+            <div class="image-gallary">
+                <img src="./images/img23.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="explore3">
+
+        <div class="col image-col">
+            <div class="image-gallary">
+                <img src="./images/img24.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="exlore1-content">
+            <h1>Онигири</h1>
+            <div class="line"></div>
+            <p>Oнигири – овкусена оризова топка (с триъгълна форма :)) с пълнеж. Пълнежът може да е всичко: от риба тон до солени сливи. Онигири е страшно популярно, евтино, лесно за приготвяне, продава се навсякъде и е идеално за хапка на крак, във влак
+                или пикник. Може да се намери във всеки Севън Елевън (7/11) магазин. На всяка гара и минимарт.
+
+            </p>
+        </div>
+
+    </section>
+
+
+    <section class="footer">
+        <p>Най-информативният сайт отностно японската кухня</p>
+        <p>© 2022-2023 Всички права запазени от Кристиян Горинов</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>

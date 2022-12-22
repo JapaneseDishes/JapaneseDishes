@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img class="logo" src="images/logo.png" alt="logo">
+        <ul class="nav-links">
+            <li class="active">
+                <a href="index.html"></a>Начална Страница</li>
+            <li class="unactive">
+                <a href="Menu.html">Видове японски ястия</a>
+                <ul class="dropdown">
+                    <li><a href="Pre.html">Предястия</a></li>
+                    <li><a href="Main.html">Основни</a></li>
+                </ul>
+            </li>
+            <li class="unactive">
+                <a href="AboutMe.html">За мен</a></li>
+            <li class="ctn">
+                <a href="contact.html">Контакт</a></li>
+        </ul>
+
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Японски ястия</h2>
+            <div class="line"></div>
+            <h1>Japanese Dishes</h1>
+            <a href="Menu.html" class="ctn">Научи повече</a>
+        </div>
+    </header>
+    <section class="events">
+        <div class="title">
+            <h1>Най-популярните японски ястия</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./images/img1.jpg" alt="">
+                <h4>Суши</h4>
+                <p>Кое е първото ястие, за което се сещате, когато стане дума за Япония? Със сигурност – суши!</p>
+                <a href="Main.html" class="ctn">Научи повече</a>
+            </div>
+            <div class="col">
+                <img src="./images/img2.jpg" alt="">
+                <h4>Рамен</h4>
+                <p>Супа рамен е много популярна опция за обяд, закуска или вечеря.</p>
+                <a href="Main.html" class="ctn">Научи повече</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="exlore-content">
+            <h1>Японска кухня</h1>
+            <div class="line"></div>
+            <p>Знаете ли, че Японците обичат да говорят за храна и по време на ядене повтарят колко им е вкусно. Смята се дори за признак на неуважение, ако по време на ядене поне няколко пъти не повториш "вкусно". Сърбането е задължително и рискувате вашият
+                домакин да се обиди, че не харесвате храната му, ако не я изсърбате шумно. В сравнение с други кухни почти е лишена от подправки, основана е на ориз, соеви продукти (мисо, тофу), риби, морски дарове, водорасли и зеленчуци. Известна е с
+                простите, превъзходно аранжирани ястия, в които нито една от съставките не засенчва естествения вкус на останалите.</p>
+            <a href="Menu.html" class="ctn">Научи повече</a>
+        </div>
+
+        <div class="exlore-video">
+            <video width="700" controls>
+                <source src="/images/Y2Mate.is - Aesthetic anime cooking  ASMR-0tbI9_5y9P8-1080p-1654977112594.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    <section class="footer">
+        <p>Най-информативният сайт отностно японската кухня</p>
+        <p>© 2022-2023 Всички права запазени от Кристиян Горинов</p>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="./AboutMe.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img class="logo" src="images/logo.png" alt="logo">
+        <ul class="nav-links">
+            <li class="unactive">
+                <a href="index.html">Начална Страница</li>
+            <li class="unactive">
+                <a href="Menu.html">Видове японски ястия</a>
+                <ul class="dropdown">
+                    <li><a href="Pre.html">Предястия</a></li>
+                    <li><a href="Main.html">Основни</a></li>
+                </ul>
+            </li>
+            <li class="active">
+                <a href="AboutMe.html"></a>За мен</li>
+            <li class="ctn">
+                <a href="contact.html">Контакт</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Малко информация за мен ;)</h2>
+            <div class="line"></div>
+            <h1>За мен</h1>
+        </div>
+    </header>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>За мен</h1>
+                <div class="line"></div>
+                <p>Казвам се Кристиян Горинов, ученик съм в 9клас в ПГКМКС "Акад Благовест Сендов" град Варна. Занимавам се с програмиране от 2 години, и както може да предположите харесвам Япония и традиционната й кухня.</p>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallary">
+                    <img src="./images/img20.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Най-информативният сайт отностно японската кухня</p>
+        <p>© 2022-2023 Всички права запазени от Кристиян Горинов</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>
