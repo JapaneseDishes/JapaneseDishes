@@ -352,6 +352,15 @@ header {
     padding: 20px auto;
 }
 
+.menu-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+
 @media only screen and (max-width:850px) {
     .menu-btn {
         display: block;
@@ -363,6 +372,8 @@ header {
         position: absolute;
         top: 30px;
         left: 30px;
+        max-width: 100px;
+        max-height: 100px;
     }
     .nav-links {
         flex-direction: column;
@@ -388,6 +399,7 @@ header {
     }
     .col img {
         max-width: 90%;
+        margin: 100px auto;
     }
     .explore {
         height: auto;
