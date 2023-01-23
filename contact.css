@@ -166,3 +166,15 @@ a {
     margin: 20px auto;
     padding: 20px auto;
 }
+
+@media only screen and (max-width:850px) {
+    .footer {
+        padding: 10px;
+    }
+    .input-row {
+        flex-direction: column;
+    }
+    .contact-right {
+        display: none;
+    }
+}

@@ -83,7 +83,7 @@ ul li:hover ul.dropdown {
 header {
     width: 100vw;
     height: 100vh;
-    background-image: url(./images/bg.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #0b95d4b7), url(./images/bg.jpg);
     background-position: bottom;
     background-size: cover;
     display: flex;
